@@ -27,6 +27,7 @@ public class SimplexAlogritam {
 				matricaOgranicenja[i][j] = unos.nextDouble();
 			}
 		}
+		System.out.println("Matrica je trenuto sljedeceg izgleda: ");
 		for (int i = 0; i < brojRedova; i++) {
 			for (int j = 0; j < brojKolona; j++) {
 				System.out.print(matricaOgranicenja[i][j] + " ");
