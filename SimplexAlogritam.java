@@ -6,6 +6,16 @@ public class SimplexAlogritam {
 
 	public static void main(String[] args) {
 		Scanner unos = new Scanner(System.in);
+		/* uvest nacin za pravljenje nejednakosti, slobodnih koeficijenata,
+		 * uvest nacin za dopunske varijable
+		 * prec na tabelu 
+		 * grafikon
+		 */
+		
+		
+		
+		
+		
 		
 		// funkcija cilja
 		System.out.println("Unesite funkciju cilja: ");
@@ -33,6 +43,7 @@ public class SimplexAlogritam {
 				System.out.print(matricaOgranicenja[i][j] + " ");
 				if (j == brojKolona - 1) {System.out.println();}
 			}
+			
 		}
 		unos.close();
 	}
